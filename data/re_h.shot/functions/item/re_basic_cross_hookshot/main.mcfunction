@@ -11,6 +11,8 @@ execute if entity @s[scores={ReCr_FloatFuel=30,ReCr_Sneak=1..}] run playsound mi
 execute if entity @s[scores={ReCr_FloatFuel=40,ReCr_Sneak=1..}] run playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 1 1
 execute if entity @s[scores={ReCr_FloatFuel=40,ReCr_Sneak=1..}] run particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.05 20
 
+#
+
 #着地でリセット
 scoreboard players reset @a[nbt={OnGround:1b}] ReCr_FloatFuel
 

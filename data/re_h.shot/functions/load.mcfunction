@@ -44,7 +44,7 @@ execute unless entity @e[type=area_effect_cloud,tag=Chuz_Vector0] run summon min
 #declare tag ReCr_HaveID
 #declare tag ReCr_Hit_Heavy
 #declare tag ReCr_HoldHook
-#declare tag ReCr_Hook0
+#declare tag ReCr_Hook_Temp
 #declare tag ReCr_HookPoint
 #declare tag ReCr_HookPoint_Basic
 #declare tag ReCr_HookPoint_Heavy
