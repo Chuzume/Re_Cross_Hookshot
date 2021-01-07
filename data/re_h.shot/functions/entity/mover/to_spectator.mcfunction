@@ -1,0 +1,3 @@
+gamerule sendCommandFeedback false
+gamemode spectator @p
+gamerule sendCommandFeedback true

@@ -1,0 +1,1 @@
+tellraw @a ["\n----------\n\n",{"text":"[Re: Cross Hookshot] の導入に成功しました。\n[Re: Cross Hookshot] has been installed.\n\nCreated by "},{"text":"Chuzume","color":"gold"},"\n\n----------\n"]

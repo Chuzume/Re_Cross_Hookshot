@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D/",
+        "DCR",
+        "/RI"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dispenser"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "C": {
+            "item": "minecraft:crossbow"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:chest",
+        "count": 1
+    }
+}

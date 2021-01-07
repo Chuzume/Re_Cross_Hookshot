@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "re_h.shot:re_basic_cross_hookshot"
+      }
+    }
+  },
+  "rewards": {
+    "function": "re_h.shot:craft/re_basic_cross_hookshot"
+  }
+}
