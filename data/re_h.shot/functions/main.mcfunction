@@ -20,7 +20,7 @@ execute as @e[tag=ReCr_Pulled] at @s run function re_h.shot:entity/pulled/main
 execute as @e[tag=ReCr_Mover] at @s run function re_h.shot:entity/mover/main
 
 #引き寄せ移動
-execute as @a at @e[tag=ReCr_Mover,tag=!NeedID,scores={BulletRemain=4..}] if score @s ReCr_P.ID = @e[tag=ReCr_Mover,limit=1,sort=nearest] ReCr_ScoreID run spectate @e[tag=ReCr_Mover,limit=1,sort=nearest] @s
+execute as @a at @e[tag=ReCr_Mover,tag=!ReCr_NeedID,scores={BulletRemain=4..}] if score @s ReCr_P.ID = @e[tag=ReCr_Mover,limit=1,sort=nearest] ReCr_ScoreID run spectate @e[tag=ReCr_Mover,limit=1,sort=nearest] @s
 
 #スコア、タグリセット
 

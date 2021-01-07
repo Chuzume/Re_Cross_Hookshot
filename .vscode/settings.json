@@ -1,0 +1,6 @@
+{
+    "datapack.lint.strictTagCheck": [
+        "warning",
+        true
+    ]
+}
